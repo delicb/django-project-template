@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block body %}
+    {{ custom_setting }}
+    <br />
+    {{ text }}
+    <br />
+    <img src="{% static 'img/lena.jpg' %}" alt="Lena" />
+{% endblock %}
